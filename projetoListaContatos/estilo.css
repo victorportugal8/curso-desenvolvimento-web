@@ -35,6 +35,9 @@ body{
     border-bottom: 1px solid #EEE;
     padding: 16px;
 }
+.list-item:hover{
+    background-color: #E8E8E8;
+}
 .list-item__img img{
     width: 80px;
     border-radius: 50%;
@@ -51,4 +54,13 @@ body{
 .list-item__email{
     margin: 5px 0 0;
     color: #AAA;
+}
+.list-item__actions{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    opacity: 0;
+}
+.list-item:hover .list-item__actions{
+    opacity: .3;
 }
