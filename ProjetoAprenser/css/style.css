@@ -10,6 +10,12 @@ html{
 h1{
     font-size: 4.8rem;
 }
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.2rem;
+}
 p, a{
     font-size: 1.6rem;
 }
@@ -26,6 +32,10 @@ nav a{
     text-decoration: none;
     padding: 1.6rem 4.6rem;
     display: inline-block;
+    color: inherit;
+}
+.wrapperContainer{
+    padding-top: 1px;
 }
 .wrapperContainer-dark{
     background-color: #2A2A2A;
@@ -41,6 +51,14 @@ nav a{
 .container{
     max-width: 127.6rem;
     margin: auto;
+}
+.section_title{
+    padding: 7rem 0;
+    text-align: center;
+    margin: 0;
+}
+.section_btn{
+    margin: 7rem 0;
 }
 .header{
     display: flex;
@@ -73,4 +91,32 @@ nav a{
 }
 .hero_title{
     margin-bottom: 4rem;
+}
+.cursos{
+    text-align: center;
+}
+.cursosContainer{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+.curso_card{
+    flex: 1;
+}
+.curso_card img{
+    display: block;
+    width: 100%;
+}
+.curso_card h3{
+    font-size: 2.4rem;
+}
+.curso_card p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+.cursos_card_content{
+    padding: 1rem 1.25rem;
+    border: 1px solid #CCC;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
 }
