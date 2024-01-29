@@ -120,3 +120,16 @@ nav a{
     border-radius: 0 0 8px 8px;
     border-top: transparent;
 }
+.escola{
+    display: flex;
+    gap: 7rem;
+    padding-top: 6rem;
+}
+.escola h2{
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+.escola p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
