@@ -1,0 +1,30 @@
+:root{
+    --login-cor-primaria: #3A68B7
+}
+body{
+    align-items: center;
+    background-color: var(--login-cor-primaria);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+.form{
+    background-color: white;
+    width: 80%;
+    max-width: 32rem;
+}
+.formFieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+    padding: 2rem;
+}
+.formTitulo{
+    color: var(--login-cor-primaria);
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 2rem;
+}
