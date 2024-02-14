@@ -1,1 +1,1 @@
-Projeto para criação de um formulário de contato, utilizando apenas HTML e CSS.
+Projeto para criação de um formulário de contato e outro formulário de login, utilizando apenas HTML e CSS.
