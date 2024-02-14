@@ -34,6 +34,17 @@ input, textarea{
     border-bottom-color: #bbb;
     margin: .5em 0 2.5em;
     padding: .75em;
+    outline: 0;
+}
+input:invalid:focus, textarea:invalid:focus{
+    border-bottom: 2px solid #FF000D;
+}
+input:valid:focus, textarea:valid:focus{
+    border-bottom: 2px solid #0EC72A;
+}
+input:focus, textarea:focus{
+    background-color: #2A2727;
+    border-bottom: 2px solid #8E999A;
 }
 legend{
     text-align: center;
