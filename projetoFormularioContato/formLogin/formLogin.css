@@ -47,3 +47,31 @@ body{
     outline: 2px solid var(--login-cor-primaria);
     padding-left: .3rem;
 }
+.formActions{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: .8rem 1.2rem;
+    text-decoration: none;
+}
+.btn-principal{
+    background-color: var(--login-cor-primaria);
+    color: white;
+}
+.btn-secundario{
+    color: var(--login-cor-primaria);
+}
+.formActionsEsquerda{
+    font-size: .85rem;
+    text-align: right;
+    flex-grow: 1;
+}
