@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formLogin.css">
+</head>
+<body>
+    <form action="#" method="get" class="form">
+        <fieldset class="formFieldset">
+            <legend class="formTitulo">Cadastre-se</legend>
+
+            <label for="usuario" class="formLabel">Usuário</label>
+            <input type="text" class="formInput" id="usuario" name="usuario" required>
+            
+            <label for="email" class="formLabel">E-mail</label>
+            <input type="email" class="formInput" id="email" name="email" required>
+            
+            <label for="senha" class="formLabel">Senha</label>
+            <input type="password" class="formInput" id="senha" name="senha" required>
+
+            <div class="formActions">
+                <input type="submit" value="Cadastre-se" class="btn btn-principal">
+                <p class="formActionsEsquerda">Já possui cadastro? <a href="index.html">Faça login</a></p>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
