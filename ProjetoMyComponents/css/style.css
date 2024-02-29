@@ -63,7 +63,7 @@ a{
     text-decoration: none;
     transition: padding-right .2s, background-color .4s;
 }
-.main-nav ul a:hover{
+.main-nav ul a:hover, .main-nav ul a:focus{
     background-color: var(--cor-terciaria);
     padding-right: 1rem;
 }
@@ -99,4 +99,10 @@ a{
 }
 .btn-full + .btn-full{
     margin-top: 2rem;
+}
+.destaque{
+    border-left: 1px solid var(--cor-primaria);
+    font-size: 1.1em;
+    margin-bottom: 2.2em;
+    padding-left: 2em;
 }
