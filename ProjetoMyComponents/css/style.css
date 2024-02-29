@@ -2,6 +2,7 @@
 :root{
     --cor-primaria: #FF7833;
     --cor-secundaria: #31333B;
+    --cor-secundaria-escura: ;
     --cor-terciaria: #444856;
 }
 /* Formatação das tags */
@@ -29,7 +30,7 @@ h2{
     margin-top: 1rem;
 }
 article{
-    padding: 1px 0 1px;
+    padding: 1em 0;
 }
 a{
     color: inherit;
@@ -72,4 +73,30 @@ a{
 }
 .img-perfil{
     max-width: 10rem;
+}
+.btn{
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-secundaria-escura);
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: .8em 1.2em;
+    border-radius: 5px;
+}
+.btn:not(.btn-full) + .btn{
+    margin-left: 2rem;
+}
+.btn-grande{
+    font-size: 1.6rem;
+}
+.btn-outline{
+    background-color: transparent;
+}
+.btn-full{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+}
+.btn-full + .btn-full{
+    margin-top: 2rem;
 }
