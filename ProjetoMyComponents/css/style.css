@@ -32,6 +32,9 @@ h2{
 article{
     padding: 1em 0;
 }
+section{
+    margin-bottom: 3rem;
+}
 a{
     color: inherit;
 }
@@ -105,4 +108,27 @@ a{
     font-size: 1.1em;
     margin-bottom: 2.2em;
     padding-left: 2em;
+}
+.card{
+    background-color: var(--cor-secundaria);
+    max-width: 740px;
+    padding: 0;
+}
+.card-content{
+    padding: .5em 1em 1em;
+}
+.card-content p, .card-titulo{
+    margin: 0;
+}
+.card-titulo{
+    font-size: 1.75em;
+    margin-bottom: .25em;
+}
+.card img{
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    gap: 1.5em;
+    padding-top: 1.5rem;
 }
