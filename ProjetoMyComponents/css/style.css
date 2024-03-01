@@ -2,7 +2,7 @@
 :root{
     --cor-primaria: #FF7833;
     --cor-secundaria: #31333B;
-    --cor-secundaria-escura: ;
+    --cor-secundaria-escura: #23252D;
     --cor-terciaria: #444856;
 }
 /* Formatação das tags */
@@ -37,6 +37,21 @@ section{
 }
 a{
     color: inherit;
+}
+input, label, textarea{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+}
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+}
+input, textarea, select{
+    background-color: #CCC;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1.6rem;
+    padding: 1.2rem;
 }
 /* Formatação das classes */
 .main-header{
@@ -86,6 +101,9 @@ a{
     padding: .8em 1.2em;
     border-radius: 5px;
 }
+.btn:hover, .btn:focus{
+    background-color: var(--cor-secundaria-escura);
+}
 .btn:not(.btn-full) + .btn{
     margin-left: 2rem;
 }
@@ -107,7 +125,7 @@ a{
     border-left: 1px solid var(--cor-primaria);
     font-size: 1.1em;
     margin-bottom: 2.2em;
-    padding-left: 2em;
+    padding: 0 0 0 2em;
 }
 .card{
     background-color: var(--cor-secundaria);
@@ -130,5 +148,15 @@ a{
 .row{
     display: flex;
     gap: 1.5em;
+    justify-content: space-between;
     padding-top: 1.5rem;
+}
+.row > *{
+    flex: 1 0 0;
+}
+.row .row{
+    padding-top: 0;
+}
+.form-quiz{
+    width: calc(50% - 1.5rem);
 }
