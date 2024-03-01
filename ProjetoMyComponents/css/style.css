@@ -160,3 +160,16 @@ input, textarea, select{
 .form-quiz{
     width: calc(50% - 1.5rem);
 }
+.alternada{
+    list-style-type: none;
+    padding-left: 0;
+}
+.alternada li{
+    padding: 0;
+}
+.alternada li:not(:last-child){
+    border-bottom: 2px solid;
+} 
+.lista-emoji{
+    list-style-type: "\1F643";
+}
