@@ -173,3 +173,26 @@ input, textarea, select{
 .lista-emoji{
     list-style-type: "\1F643";
 }
+.tabela{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tabela td:last-child, .tabela th:last-child{
+    text-align: right;
+}
+.tabela td, .tabela th{
+    padding: 1.6rem;
+}
+.tabela:not(.tabela-zebrada) td, .tabela:not(.tabela-zebrada) th{
+    border-bottom: 2px solid var(--cor-secundaria-escura);
+}
+.tabela th{
+    text-transform: uppercase;
+    text-align: left;
+}
+.tabela-zebrada tbody tr:nth-child(odd){
+    background-color: var(--cor-secundaria);
+}
+.tabela-linha-vertical td:not(:last-child), .tabela-linha-vertical th:not(:last-child){
+    border-right: 1px solid var(--cor-secundaria-escura);
+}
