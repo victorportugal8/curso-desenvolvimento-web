@@ -196,3 +196,6 @@ input, textarea, select{
 .tabela-linha-vertical td:not(:last-child), .tabela-linha-vertical th:not(:last-child){
     border-right: 1px solid var(--cor-secundaria-escura);
 }
+.sublinhado{
+    text-decoration: red wavy underline;
+}
