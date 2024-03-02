@@ -210,3 +210,21 @@ input, textarea, select{
 .sublinhado{
     text-decoration: red wavy underline;
 }
+.link-icone{
+    display: inline-block;
+    margin-right: 3rem;
+    transition: color .3s;
+    text-decoration: none;
+    font-style: normal;
+}
+.link-icone:hover{
+    color: var(--cor-primaria);
+}
+.link-icone svg{
+    display: inline-block;
+    fill: currentColor;
+    margin-right: 1rem;
+    height: 3rem;
+    width: 3rem;
+    vertical-align: middle;
+}
